@@ -60,7 +60,7 @@ if file is not None:
             ]
             res = agent(messages)
             print(res)
-            st.write(res)
+            st.write(res['output'])
 
 
 
